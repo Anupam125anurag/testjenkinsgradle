@@ -23,3 +23,6 @@ time.sleep((1000*100)/1000)
 #kernel log
 os.popen("adb shell dmesg >kernel3log.txt")
 print("hello CTS")
+
+#run cts
+os.system("sudo/home/sushma/Downloads/android-cts/tools/cts-tradefed run cts")
